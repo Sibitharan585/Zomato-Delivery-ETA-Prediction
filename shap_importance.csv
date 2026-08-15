@@ -1,0 +1,11 @@
+Feature,Avg. impact on ETA (minutes)
+Road_traffic_density,2.592335
+Delivery_person_Age,2.5593686
+Distance_km,2.4169002
+Delivery_person_Ratings,2.0081854
+Vehicle_condition,1.977373
+Weather_conditions_Sunny,1.3463471
+multiple_deliveries,0.6159804
+Weather_conditions_Stormy,0.5062453
+Weather_conditions_Windy,0.50526816
+Weather_conditions_Sandstorms,0.4578148

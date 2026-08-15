@@ -1,0 +1,8 @@
+Model,MAE (minutes),RMSE,R2 Score
+XGBoost (tuned),3.04,3.77,0.837
+Random Forest,3.11,3.88,0.827
+XGBoost (untuned),3.12,3.87,0.828
+Decision Tree,3.5,4.41,0.777
+Gradient Boosting,3.58,4.47,0.77
+Ridge Regression,4.83,6.04,0.581
+Linear Regression,4.83,6.04,0.581
