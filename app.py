@@ -60,16 +60,18 @@ def load_model():
 
 model, feature_cols = load_model()
 
-st.markdown('<div class="hero-banner">', unsafe_allow_html=True)
-hc1, hc2 = st.columns([1, 6])
-with hc1:
-    if Path("zomato_logo.png").exists():
+if Path("zomato_logo.png").exists():
+    logo_col, _ = st.columns([1, 6])
+    with logo_col:
         st.image("zomato_logo.png", width=70)
-with hc2:
-    st.markdown("<h1>🛵 Delivery Time Predictor</h1>", unsafe_allow_html=True)
-    st.markdown("<p>Predicts ETA using traffic, weather, distance, and rider context — not distance alone.</p>", unsafe_allow_html=True)
-    st.markdown('<span class="model-badge">⚡ Powered by XGBoost · Test MAE 3.04 min · R² 0.837</span>', unsafe_allow_html=True)
-st.markdown('</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="hero-banner">
+    <h1>🛵 Delivery Time Predictor</h1>
+    <p>Predicts ETA using traffic, weather, distance, and rider context — not distance alone.</p>
+    <span class="model-badge">⚡ Powered by XGBoost · Test MAE 3.04 min · R² 0.837</span>
+</div>
+""", unsafe_allow_html=True)
 
 st.caption("📊 See the **Dashboard** page in the left sidebar for full model comparison, EDA, and business insights.")
 
