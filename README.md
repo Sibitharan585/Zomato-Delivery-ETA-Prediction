@@ -1,4 +1,4 @@
-# Food Delivery Time Prediction — Beyond Distance-Based ETA
+# Beyond Distance: Predicting Food Delivery Time with Machine Learning
 
 Food delivery platforms like Zomato and Swiggy estimate delivery time primarily using
 distance, but distance alone explains only 32% of the variation in actual delivery time
